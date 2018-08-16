@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+			{
+				margin: 0;
+				padding: 0;
+				/*background: url(images/bg10.jpg);
+				background-size: cover;*/
+				font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+			}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:#ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right,#faa5b6,#c69dc1);
+  background: -moz-linear-gradient(right, #faa5b6,#c69dc1);
+  background: -o-linear-gradient(right,#faa5b6,#c69dc1);
+  background: linear-gradient(to left,#faa5b6,#c69dc1);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:lightpink;
+
+}
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+	color:#c69dc1;
+}
+
+img { 
+    width: 100%;
+    height: 250px;
+    opacity: 0.6;
+}
+#matter{
+		font-size:16px;
+		font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+		}
+#chart{
+		width:500px;
+		height:200px;
+		opacity:1;
+
+		}
+</style>
+</head>
+<body>
+<div class="container">
+  <img  src="blood-clipart-donation-20.jpg" alt="donation" width="10px" height="15px">
+  <div class="center">LIFE SAVER</div>
+</div>
+<ul>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="reg.html">REGISTRATION</a></li>
+   <li><a href="search.php">SEARCH</a></li>
+  <li><a href="requestmod.php">REQUEST</a></li>
+  <li><a href="login1.php">LOGIN</a></li>
+   <li><a href="contact.html">CONTACT US</a></li>
+</ul>
+<p>Blood donations in India are conducted by several organizations and hospitals by organizing blood donation camps. Donors can also visit blood banks in hospitals to donate blood or directly to a receiver. Despite shortage of donated blood, efforts by the government and various organizations have led to a decrease in the demand and supply gap over the years. The number of voluntary blood donors increased from 54.4% in 2006-2007 to 83.1% in 2011-2012, with the number of blood units increasing from 4.4 million units in 2006-2007 to 9.3 million units in 2012-2013.In 2016, the Ministry of Health and Family Welfare reported a donation of 10.9 million units against a requirement of 12 million units.</p>
+<h1>Blood Types</h1>
+<pre id="matter">Although all blood is made of the same basic elements, not all blood is alike. In fact, there are eight different common blood types, which are determined by the presence or absence of
+certain antigens – substances that can trigger an immune response if they are foreign to the body. Since some antigens can trigger a patient's immune system to attack the transfused blood,
+safe blood transfusions depend on careful blood typing and cross-matching.
+
+The ABO Blood Group System
+There are four major blood groups determined by the presence or absence of two antigens – A and B – on the surface of red blood cells:
+
+Group A – has only the A antigen on red cells (and B antibody in the plasma)
+Group B – has only the B antigen on red cells (and A antibody in the plasma)
+Group AB – has both A and B antigens on red cells (but neither A nor B antibody in the plasma)
+Group O – has neither A nor B antigens on red cells (but both A and B antibody are in the plasma)
+There are very specific ways in which blood types must be matched for a safe transfusion. See the chart below: 
+ 
+Blood type chart
+Group O	O Blood Type	diagram linking blood types	O Blood Type
+A can donate red blood cells to A's and AB's	A Blood Type	A Blood Type
+B can donate red blood cells to B's and AB's	B Blood Type	B Blood Type
+Group AB can donate to other AB's but can receive from all others	AB Blood Type	AB Blood Type
+ 
+In addition to the A and B antigens, there is a third antigen called the Rh factor, which can be either present (+) or absent ( – ). In general, Rh negative blood is given to Rh-negative patients,
+and Rh positive blood or Rh negative blood may be given to Rh positive patients.
+
+The universal red cell donor has Type O negative blood type.
+The universal plasma donor has Type AB blood type.</pre>
+<center><img id="chart" src="247d8cb79af4f1fba400557d2f434467.jpg" width="500" height="500" border="0" alt=""></center>
+</body>
+</html>

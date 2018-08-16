@@ -1,0 +1,49 @@
+body {
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(right,#faa5b6,#c69dc1);
+  background: -moz-linear-gradient(right, #faa5b6,#c69dc1);
+  background: -o-linear-gradient(right,#faa5b6,#c69dc1);
+  background: linear-gradient(to left,#faa5b6,#c69dc1);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+      
+}
+a
+{
+	text-decoration:none;
+	display:inline-block;
+	
+   
+  font-size:30px;
+	
+}
+ td{
+  font-family: "Roboto", sans-serif;
+	font-weight:bold;
+}
+table{
+	
+  position: relative;
+  z-index: 1;
+  background: white;
+  opacity:0.8;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+th{
+font-family: "Roboto", sans-serif;
+font-weight:bold;
+background:#ffccff;
+border:"1px"
+}
+h1{
+font-family: "Roboto", sans-serif;
+font-size:30px;
+font-weight:bold;
+color:#6c1757;
+}
+
